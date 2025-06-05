@@ -18,16 +18,19 @@ let score = "33abc"
 // console.log(valueInNumber) >> "33abc"
 
 let x = 4;
-let y = ++x;
+let y = --x;
 console.log(y);
 
 // ******************* Operation ******************
+
+let a = 10;
+let b = -a;
 
 let str1 = "Hello"
 let str2 = "Piyush"
 
 let str3 = str1 + str2
-console.log(str3);
+console.log(b);
 
 
 
