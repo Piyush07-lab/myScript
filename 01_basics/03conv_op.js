@@ -19,18 +19,19 @@ let score = "33abc"
 
 let x = 4;
 let y = --x;
-console.log(y);
+//console.log(y);
 
 // ******************* Operation ******************
 
 let a = 10;
 let b = -a;
+//console.log(b);
 
 let str1 = "Hello"
 let str2 = "Piyush"
 
 let str3 = str1 + str2
-console.log(b);
+//console.log(str3);
 
 
 
