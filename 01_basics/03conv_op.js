@@ -18,7 +18,9 @@ let score = "33abc"
 // console.log(valueInNumber) >> "33abc"
 
 let x = 4;
-let y = --x;
+let y = --x; // Pre-decrement
+let z = ++x; // increment before assignment
+let r = x++; // Post-increment, meaning it will increment after this line
 //console.log(y);
 
 // ******************* Operation ******************

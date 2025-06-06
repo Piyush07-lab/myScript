@@ -1,6 +1,6 @@
 const accountId = 22469  // Declaring constant means the data is non changable
 let accountEmail = "piyushmishraone999@gmail.com"
-var accountPassword = "12345"    // var is also mutable, but it's not recommended to use it in modern JavaScript, it has function scope, meaning it can be accessed outside the block where it was defined reasulting in potential bugs in larger codebases.
+var accountPassword = "12345"    // var is also mutable, but it's not recommended to use it in modern JavaScript, it has function scope, meaning it can be accessed outside the block where it was defined resulting in potential bugs in larger codebases.
 let accountCity = "Jaipur"     // let and var are mutable, meaning we can change their content later
 let accountState       //undefined
 
