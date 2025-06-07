@@ -1,12 +1,14 @@
 const score = 100.024; // Usually a number
 
-const bonus = new Number(50.356); // Using the Number object. It ultimately behaves like a number, but is an object. Also gives us methods like toFixed, toExponential, etc..);
+const bonus = new Number(50.356); // Using the Number object. It ultimately behaves like a number, but is an object;
 
 // console.log(bonus.toString()); // "50"
 
 const total = score + bonus; 
 
 console.log(total); // 150.38
+
+console.log(score.toPrecision(4)); // "100.0" - This will format the number to 4 significant digits
 
 console.log(total.toPrecision(4)); // "150.4" - This will format the number to 4 significant digits
 
