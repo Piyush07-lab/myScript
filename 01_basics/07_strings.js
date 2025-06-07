@@ -29,7 +29,7 @@ const str1 = userName; // Using a string object
 // console.log(str1.repeat(2)); // Repeat the strings
 // console.log(str1.concat(" How are you?")); // Concatenate two strings
 
-console.log(userName);
-console.log(str1);   //just to check...
+// console.log(userName);
+// console.log(str1);   //just to check...
 
 
