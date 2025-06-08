@@ -1,3 +1,4 @@
+/* ****************Ignore this************************* */
 //functions
 //------Square-----
 function squareOf(x) {
