@@ -44,7 +44,7 @@ console.log((Math.random() * 100) + 1); // Random number between 1 and 100
 
 console.log(Math.floor(Math.random() * 100) + 1); // Random integer between 1 and 100
 
-const min = 1;
+const min = 10;
 const max = 100;
 
 const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; // Random integer between min and max
