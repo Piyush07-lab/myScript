@@ -29,7 +29,7 @@ console.log(`${myBirthday.toLocaleString('default', {
     hour: '2-digit', // Hour in 2-digit format
     minute: '2-digit', // Minute in 2-digit format
     second: '2-digit' // Second in 2-digit format
-})} was born a small child, who would grow up to become the person who changes the world. Not just a human but a god. The great woman who gave birth to this child is unknown of the greatness of this child. To her, He's just her son, her hope and her life support.`);
+})} was born a small child, who would grow up to become the person who changes the world. Me! Piyush - The mighty god!`);
 
 
 
