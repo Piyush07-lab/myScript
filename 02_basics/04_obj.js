@@ -44,6 +44,10 @@ const obj4 = Object.assign({}, obj1, obj2); // Merging two objects using Object.
 
 // Now when we recive data from the datbase, it's an array of objects. Now how do access the data of a particular object
 
+// Let's say we have an array of players, each player is an object with various properties
+
+// This is an example of an array of objects representing players in a gameworld. 
+
 const players = [
     {
         playerid: 1,
