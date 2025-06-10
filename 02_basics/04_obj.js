@@ -138,3 +138,16 @@ const players = [
 // console.log(Object.values(players[0]));
 console.log(Object.entries(players[0]));
 
+// objects has many possiblities, you can create objects with any properties you want.
+// You can also create objects with methods, which are functions that are properties of the object.
+// For example, you can create an object that represents a person with a method that returns the person's full name.
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    fullName: function() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+    
+
