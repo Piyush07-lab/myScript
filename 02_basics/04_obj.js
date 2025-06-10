@@ -136,14 +136,31 @@ const players = [
 
 // console.log(Object.keys(players[0]));
 // console.log(Object.values(players[0]));
-console.log(Object.entries(players[0])); // This will give you an array of key-value pairs for the first player object
+// console.log(Object.entries(players[0])); // This will give you an array of key-value pairs for the first player object
 
 // objects has many possiblities, you can create objects with any properties you want.
 // You can also create objects with methods, which are functions that are properties of the object.
 // For example, you can create an object that represents a person with a method that returns the person's full name.
 
-console.log(players[0].hasOwnProperty("name")); 
+// console.log(players[0].hasOwnProperty("name")); 
 // This will check if the player object has a property called "name" and return true or false
+
+// Destructuring - is a way to extract values from an object or an array and assign them to variables in a more concise way.
+
+const course = {
+    courseName: "JavaScript Basics",
+    price: 2500000,
+    courseInstructor: "Keshav", // This is a joke! 
+    courseDuration: "3 months",
+}
+
+// course.courseInstructor // Accessing the courseInstructor property, but it isn't proffesional my nigga we gotta do better. 
+
+const {courseInstructor: instructor} = course // This  
+
+console.log(instructor); 
+
+
 
 
 
