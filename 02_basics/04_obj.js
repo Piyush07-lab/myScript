@@ -136,18 +136,16 @@ const players = [
 
 // console.log(Object.keys(players[0]));
 // console.log(Object.values(players[0]));
-console.log(Object.entries(players[0]));
+console.log(Object.entries(players[0])); // This will give you an array of key-value pairs for the first player object
 
 // objects has many possiblities, you can create objects with any properties you want.
 // You can also create objects with methods, which are functions that are properties of the object.
 // For example, you can create an object that represents a person with a method that returns the person's full name.
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 30,
-    fullName: function() {
-        return `${this.firstName} ${this.lastName}`;
-    }
-};
+
+console.log(players[0].hasOwnProperty("name")); 
+// This will check if the player object has a property called "name" and return true or false
+
+
+
     
 
