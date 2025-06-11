@@ -85,4 +85,12 @@ const players = [
     }
 ]
 
+// console.log(Object.getPrototypeOf(players[0])); // Returned [object: null prototype].
+
+const {items} = players;
+
+
+
+
+
 

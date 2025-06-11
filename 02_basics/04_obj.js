@@ -160,6 +160,17 @@ const {courseInstructor: instructor} = course // This
 
 console.log(instructor); 
 
+// API concepts
+
+// {
+//     name: "piyush",
+//     speciesType: "human",
+//     experience: 279,
+// }
+
+// Api usually comes in array of objects inside which is strings.
+
+
 
 
 
