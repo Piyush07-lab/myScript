@@ -17,7 +17,7 @@ const JsUser = {
 
 // console.log(JsUser.email); // Accessing object properties, but it seems like a function call
 // console.log(JsUser['email']); // Accessing object properties using bracket notation. Appropriate for dynamic property names.
-console.log(typeof JsUser[mySym]); // Accessing the property using a symbol key
+// console.log(typeof JsUser[mySym]); // Accessing the property using a symbol key
 
 JsUser.email = "theone1117@outlook.com"; // Updating the email property
 // console.log(JsUser.email); // Accessing the updated email property
