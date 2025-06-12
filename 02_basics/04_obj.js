@@ -164,13 +164,24 @@ console.log(instructor);
 
 // {
 //     name: "piyush",
-//     speciesType: "human",
+//     speciesType: "human", 
 //     experience: 279,
+// } [ This isn't the right way to declare .json, in json keys and values both are strings ]
+
+// {
+//     "name": "piyush",
+//     "speciesType": "human", 
+//     "experience": 279,
 // }
 
-// Api usually comes in array of objects inside which is strings.
+// Api usually comes in .json format, but sometimes it does comes in array format.
 
-
+[
+    {},
+    {},
+    {},
+]
+ 
 
 
 
