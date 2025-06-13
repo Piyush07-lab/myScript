@@ -53,4 +53,4 @@ function handleObj(anyobject) {
 
 // handleObj(user)
 
-console.log(c);
+
