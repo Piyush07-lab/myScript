@@ -5,9 +5,32 @@ function squareOf(x) {
     return x * x;
 }
 //------cube------
-function cubeOf(x) {
-    return x * x * x;
-}
+// function cubeOf(x) {
+//     return x * x * x;
+// }
+
+// function sumOf(a, b){
+//     return a + b;
+// }
+
+// const sum = sumOf(100, 24)
+
+// if (sum <= 50) {
+
+//     console.log("You could have done it by yourself");
+
+// } else {
+
+//     console.log("It's okay you're not an asian like me! Normie!");
+    
+// }
+
+
+
+
+
+
+
 
 // console.log(cubeOf(2));
 // console.log(squareOf(9));
@@ -15,6 +38,6 @@ function cubeOf(x) {
 //conditionals
 
 
-const piyush = Mishra
+// const piyush = Mishra
 
-console.log(piyush == Mishra);
+// console.log(piyush == Mishra);
