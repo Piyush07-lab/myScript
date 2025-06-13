@@ -40,7 +40,7 @@ function calculateCartPrice(...num1){
     return num1    // [Rest operator]
 }
 
-console.log(calculateCartPrice(200, 400, 500));
+// console.log(calculateCartPrice(200, 400, 500));
 
 const user = {
     userName: "piyush",
@@ -51,4 +51,6 @@ function handleObj(anyobject) {
     console.log(`Username is ${anyobject.userName}, and their Id is ${anyobject.id}`);
 }
 
-handleObj(user)
+// handleObj(user)
+
+console.log(c);
