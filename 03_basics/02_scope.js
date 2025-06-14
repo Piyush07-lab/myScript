@@ -50,3 +50,18 @@ if (true){
 }
 // console.log(username);
 
+// ------------------< Interesting >--------------------\\
+
+function addone(num){  // This is a typical function
+    return num + 1
+}
+
+addone(5)
+
+const addtwo = function(num2){  // This is an example of an expression. Like a variable...
+    return num2 + 2
+}
+
+// Declaring a function withing a variable means something to do with hoisting. You can't access a variable before it's declared but for a normal function declaration it is easy.
+
+addtwo(5)
