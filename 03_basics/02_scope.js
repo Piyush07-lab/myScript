@@ -56,6 +56,8 @@ function addone(num){  // This is a typical function
     return num + 1
 }
 
+// An example function
+
 addone(5)
 
 const addtwo = function(num2){  // This is an example of an expression. Like a variable...

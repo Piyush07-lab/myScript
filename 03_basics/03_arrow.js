@@ -42,4 +42,4 @@ chai()
 
 const addnums = (num1, num2) => (num1 + num2);
 
-console.log(addnums(78799652, 1));
+// console.log(addnums(78799652, 1));
