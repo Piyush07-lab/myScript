@@ -1,0 +1,33 @@
+>>>What do I know about this up to now?
+
+1. I know about variable declaration...like const(constant), var, let and that's it.
+2.  I know a little of some operations like basic arithmetic and basic operation.
+3. I have learned about some key points like...number has a range of 2 to power 53 and beyond that we use bigint; Booleans can be played with but shouldn't; null represents empty value which is assigned; undefined is unassigned but declared; symbol is used for object properties and is a unique identifier; object is mutable and reference type; const is unchangeable, means value never changes; let is mutable; var has function scope, meaning it can be accessed outside the block where it was defined resulting in bugs in larger codebase. 
+4. Learned about conversions and operations. Conversion refers to converting the datatype into another one, it is specified in the ECMAScript documentation. Also understood what doesn't work and what gives errors. Also the operator precedency as well.
+5. Null is treated as 0 in comparisons, thus when we compare it against 0 in any one way it returns false {(i.e. null > 0) it's false} or {(i.e. null == 0) it's false}, but when done both ways it returns true {(i.e. null >= 0) it's true}. The reason is simple null is treated as zero which makes all the comparisons true but not just one. Null satisfies all the comparisons against zero and thus only one results in false.
+6. Comparison and equality check (<, >, ==) converts value accordingly to compare that's why we should use strict comparisons (===, !==)
+
+7. Comparison on Datatypes
+   | Feature                          | Primitive Datatypes                                      | Non-Primitive Datatypes         |
+// |----------------------------------|----------------------------------------------------------|---------------------------------|
+// | Examples                         | string, number, boolean, null, undefined, symbol, bigint | object, array, function         |
+// | Mutability                       | Immutable                                                | Mutable                         |
+// | Passing                          | By value                                                 | By reference                    |
+// | Memory Storage                   | Stack                                                    | Heap                            |
+// | Comparison                       | By value                                                 | By reference                    |
+// | Size                             | Fixed                                                    | Variable                        |
+// | Creation                         | Using literals                                           | Using constructors or literals  |
+// | Object Nature                    | Not objects                                              | Objects                         |
+
+8. Js is dynamically typed language so that means you don't need to declare the type of variable, it will automatically detect that. But we can declare a strict type variable by declaring an object type by assigning 'new' keyword followed with desired datatype.
+9. Each symbol will be different even if you give them the same value. It is never equal. (Don't have any idea how t use this feature but we'll see...)
+10. Strings can be declared in multiple ways, "double quotes"; 'single quotes'; and `backticks` [But you should use double quotes, coz that's what heroes do]
+11. For multiline strings, template literals are the best way as it allows string interpolation. This will be a good practice.
+12. There's also something called string object which has it's own perks. Also so many string methods for you to get used to and start using it in your projects. Get to it!
+13. Numbers have ton of customizations like we can use different methods to make it more accurate or detailed or keep it concise for user ease. There is a lot you could do so get used to it as soon as possible.
+14. Maths is a built in obj in JavaScript and it has most of the functionality. We can use those through methods like .pi; .abs; .round; etc...
+15. math.random() is an in-built function that generates a random number within the range of 0 to 1. We can code to our desire and has infinite possibilities.
+16. Dates in JavaScript are counted in milliseconds elapsed since Epoch, which is ofc midnight Jan 1, 1970. Max timestamp is a lil bit smaller than maxsafeinteger in JavaScript. It ranges from, (Get ready) a maximum of ±8,640,000,000,000,000 milliseconds, which is 100 million days relative to Epoch. That gives us a date range from April 20, 271821 BC to September 13, 275760 AD. Duh! It's fuckin lot of time. So, I'm not out of time for a safe while, at least in JavaScript.
+17. I started learning about array in Js and it's sick. It has so many methods. Possibilities are endless. I've started to think that Js has so much manual customization that i could do. Like I don't know what are the limits with this one here. It is crazy.
+18. You can put anything in an array. You could change an array. Not the copy, the original array. You can merge two different array in multiple ways. And don't get me started with the possibilities. Js is like a fuckin sandbox. Do whatever the fuck you want(with your own rules ofc). You can convert it to string. I mean they didn't have to but they did anyway. I'm starting to fall in love with this language. I don't know for how long.
+19. So, today I learned objects in js and it's amazing. I basically learned how many things are possible with objects. Also learned why we can just put anything in an array (coz it makes your fuckinlife easy). Anyways objects in javascript is amazing to work with. 
