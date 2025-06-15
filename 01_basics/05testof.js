@@ -1,9 +1,9 @@
 /* ****************Ignore this************************* */
 //functions
 //------Square-----
-function squareOf(x) {
-    return x * x;
-}
+// function squareOf(x) {
+//     return x * x;
+// }
 //------cube------
 // function cubeOf(x) {
 //     return x * x * x;
@@ -41,3 +41,13 @@ function squareOf(x) {
 // const piyush = Mishra
 
 // console.log(piyush == Mishra);
+
+// think about an example with a function with a loop 
+
+const american = function () {
+    if (location === "US") {
+        return ;
+        
+    }
+}
+
