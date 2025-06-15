@@ -29,7 +29,7 @@ const chai = () => {
     console.log(this);
 }
 
-chai()
+// chai()
 
 // So what it arrow functions
 // Basic syntax is () => {} for example
@@ -45,3 +45,7 @@ const addnums = (num1, num2) => (num1 + num2);
 // console.log(addnums(78799652, 1));
 
 const makestring = (a, b) => (a + b);
+
+// console.log(makestring("Piyush", "Mishra"));
+
+
