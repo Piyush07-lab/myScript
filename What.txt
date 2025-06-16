@@ -36,3 +36,4 @@
 22. So, I learned about scope and it's pretty easy to understand. I also learned about the different types of scope like global, function, block, etc. Also, I learned about the concept of closures and how they work in JavaScript. Closures are a powerful feature that allows functions to access variables from their outer scope even after the outer function has finished executing.
 23. I also learned about the concept of hoisting and how it affects variable and function declarations in JavaScript. Hoisting is a behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, allowing them to be used before they are declared in the code.
 24. IIFE is the thing I'm learning right now.
+25. Learned about some behind the scenes stuffs of javascript.
